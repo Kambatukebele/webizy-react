@@ -1,9 +1,22 @@
-import './App.css'
-
 const App = () => {
   return (
     <>
-      <h1 className='text-3xl font-bold underline text-red-700'>Hello there</h1>
+      <header>
+        <div>
+          <nav>
+            <a href="#">
+              <img src="" alt="" />
+            </a>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+            <a href="#">Let's Talk</a>
+          </nav>
+        </div>
+      </header>
     </>
   )
 }
